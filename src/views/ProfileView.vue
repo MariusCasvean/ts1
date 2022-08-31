@@ -1,16 +1,12 @@
 <template>
-  <h1>Component</h1>
-  <h3>{{ msg }}</h3>
+  <h3>This is my profile</h3>
+  <h2>MC</h2>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'HelloWorld',
-
-  props: {
-    msg: String,
-  },
+  name: 'ProfileView',
 });
 </script>

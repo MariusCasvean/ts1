@@ -8,6 +8,10 @@
 </template>
 
 <style>
+body {
+  background: rgb(193, 231, 233);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

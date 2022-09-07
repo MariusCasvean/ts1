@@ -8,8 +8,15 @@
             >
                 <avatar :initials="profile.initials" />
                 <div>
-                    <span class="name">{{ profile.fullname }}</span>
-                    <span class="location">{{ profile.city }}</span>
+                    <span class="name">
+                        <span v-html="profile.mood || '&#128578;'" /> {{ profile.fullname }} | {{ profile.age }} years
+                    </span>
+                    <span class="location">🌏{{ profile.city }}</span>
+                    <span class="hobbies">
+                        <span v-for="hobby in profile.hobbies" :key="hobby.id">
+                            💖{{ hobby.hobby }}
+                        </span>
+                    </span>
                 </div>
             </li>
         </ul>

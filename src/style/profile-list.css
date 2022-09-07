@@ -16,13 +16,19 @@
     cursor: pointer;
 }
 
-.name {
+.name,
+.location {
     margin: 0 0 5px 80px;
 }
 
-.location {
+.location,
+.hobbies {
     font-weight: normal;
     font-size: .75rem;
+}
+
+.hobbies > span:not(:last-child) {
+    margin-right: 10px;
 }
 
 .profile:hover {

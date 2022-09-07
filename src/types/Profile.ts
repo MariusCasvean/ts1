@@ -4,6 +4,7 @@ interface Profile {
     age: number | string,
     city: string,
     initials: string,
+    mood?: string,
     hobbies: Hobby[],
 }
 

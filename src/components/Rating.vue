@@ -17,6 +17,7 @@ export default defineComponent({
     props: {
         rating: {
             required: true,
+            // TODO: check for this type syntax, to be correct
             type: Number as PropType<number>,
         },
     },

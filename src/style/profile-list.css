@@ -28,7 +28,7 @@
 }
 
 .hobbies > span:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .profile:hover {
@@ -42,4 +42,14 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+}
+
+.hobbies {
+    display: flex;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }

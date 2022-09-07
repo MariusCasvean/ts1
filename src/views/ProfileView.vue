@@ -28,7 +28,7 @@ export default defineComponent({
         mood: '&#129313;',
         hobbies: [
           { id: 1, hobby: 'Fishing', rating: 5 },
-          { id: 2, hobby: 'Reading', rating: 4 },
+          { id: 2, hobby: 'Reading', rating: 3 },
           { id: 3, hobby: 'Trips', rating: 4 },
         ],
       },
@@ -64,7 +64,7 @@ export default defineComponent({
         mood: '&#129299;',
         hobbies: [
           { id: 1, hobby: 'Exploring', rating: 5 },
-          { id: 2, hobby: 'Animal study', rating: 3 },
+          { id: 2, hobby: 'Animal study', rating: 5 },
         ],
       },
     ]);

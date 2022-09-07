@@ -13,8 +13,11 @@
                     </span>
                     <span class="location">🌏{{ profile.city }}</span>
                     <span class="hobbies">
-                        <span v-for="hobby in profile.hobbies" :key="hobby.id">
-                            💖{{ hobby.hobby }}
+                        <span v-for="hobby in profile.hobbies" :key="hobby.id" class="hobby">
+                            <span>💖{{ hobby.hobby }}</span>
+                            <span>
+                                <rating :rating="hobby.rating" />
+                            </span>
                         </span>
                     </span>
                 </div>
@@ -27,10 +30,12 @@
 import { defineComponent, PropType } from 'vue';
 import { Profile } from '../types/Profile';
 import Avatar from '../components/Avatar.vue';
+import Rating from '../components/Rating.vue';
 
 export default defineComponent({
     components: {
         Avatar,
+        Rating,
     },
 
     props: {

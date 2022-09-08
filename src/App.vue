@@ -2,7 +2,8 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link :to="{ name: 'about' }">About</router-link> |
-    <router-link :to="{ name: 'profile' }">Profile</router-link>
+    <router-link :to="{ name: 'profile' }">Profile</router-link> |
+    <router-link :to="{ name: 'jokes' }">Jokes</router-link>
   </nav>
   <router-view/>
 </template>

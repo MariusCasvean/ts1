@@ -1,0 +1,55 @@
+.profile-list {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background: rgb(202, 175, 202);
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px grey;
+    cursor: pointer;
+}
+
+.name,
+.location {
+    margin: 0 0 5px 80px;
+}
+
+.location,
+.hobbies {
+    font-weight: normal;
+    font-size: .75rem;
+}
+
+.hobbies > span:not(:last-child) {
+    margin-right: 20px;
+}
+
+.profile:hover {
+    box-shadow: 1px 1px 2px grey;
+    position: relative;
+    top: 1px;
+}
+
+.profile > div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.hobbies {
+    display: flex;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

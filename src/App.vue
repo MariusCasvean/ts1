@@ -2,12 +2,17 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link :to="{ name: 'about' }">About</router-link> |
-    <router-link :to="{ name: 'profile' }">Profile</router-link>
+    <router-link :to="{ name: 'profile' }">Profile</router-link> |
+    <router-link :to="{ name: 'jokes' }">Jokes</router-link>
   </nav>
   <router-view/>
 </template>
 
 <style>
+body {
+  background: rgb(193, 231, 233);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,5 +32,9 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.bold {
+  font-weight: bold;
 }
 </style>

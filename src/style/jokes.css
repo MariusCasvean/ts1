@@ -1,0 +1,31 @@
+.jokes {
+    border: 1px solid red;
+}
+
+button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px grey;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    box-shadow: 1px 1px 2px grey;
+}
+
+button:active {
+    box-shadow: 0 0 2px grey;
+}
+
+p {
+    margin-top: 50px;
+}
+
+.joke {
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: rgb(169, 187, 202);
+    border-radius: 10px;
+}
